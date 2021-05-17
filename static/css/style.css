@@ -1,0 +1,60 @@
+.container-1, .container-2,.container-3,.container-4,.container-5{
+    width:75%;
+    border: 1px solid black;
+    margin: 12 auto;
+    text-align: center;    
+}
+
+.flex-box-container-1,.flex-box-container-2,.flex-box-rps,.flex-box-container-4,.flex-blackjack-row-2,.flex-blackjack-row-1,.flex-blackjack-row-3
+{
+    display: flex;
+    border: 1px solid black;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2
+{
+    background: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Green-Wallpaper-1-640x360.jpg') center;
+    color: #fff;
+}
+.flex-blackjack-row-1 div
+{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    text-align: center;
+}
+.flex-blackjack-row-1 img
+{
+    width: 25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button,div
+{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.flex-blackjack-row-3 th,tr,td
+{
+    border:1px solid black;
+    text-align: center;
+}
+
+.flex-box-container-1 div{
+    padding: 15px;
+    align-items: center;
+}
+
+
+.flex-box-container-2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.7);
+}
+
+.flex-box-rps img:hover{
+     
+    box-shadow: 0px 10px 50px rgb(37,50,233,1);
+}

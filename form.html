@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style1.css">
+
+    <title>Form Validation</title>
+    <script src="static/js/formScript.js"></script>
+</head>
+<body>
+
+    <div class="container-11">
+        <div class="flex-box-row-1">
+            <img src="static/images/form.jpg">
+            <form name="myForm" action='#' onsubmit="return(validate());" method="POST">
+            <table class="sign-up-table">
+                <tr id="sign-up"><th style="color:black">Sign Up</th></tr>
+                <tr>
+                    <th>Full Name</th>
+                </tr>
+                <tr>
+                    <td><input id='input-text' class="name" name="name" class="name" type="text" placeholder="Name.."></td>
+                    <td><img id="img-name-tick"src="static/images/tick.jpg" style="display: none;width:15px;"></td>
+                    <td><img id="img-name-wrong"src="static/images/wrong.jpg" style="display: none;width:15px;"></td>
+
+                </tr>
+                <tr>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td><input id='input-text' name="email" type="text" placeholder="Email Address..."></td>
+                    <td><img id="img-mail-tick"src="static/images/tick.jpg" style="display: none;width:15px;"></td>
+                    <td><img id="img-mail-wrong"src="static/images/wrong.jpg" style="display: none;width:15px;"></td>
+
+                </tr>
+                <tr>
+                    <th>Username</th>
+                </tr>
+                <tr>
+                    <td><input id='input-text' name="uname" type="text" placeholder="Username.."></td>
+                    <td><img id="img-uname-tick"src="static/images/tick.jpg" style="display: none;width:15px;"></td>
+                    <td><img id="img-uname-wrong"src="static/images/wrong.jpg" style="display: none;width:15px;"></td>
+
+                </tr>
+                <tr>
+                    <th>Password</th>
+                </tr>
+                <tr>
+                    <td><input id='input-text' name="pas" type="password" placeholder="*********"></td>
+                    <td><img id="img-pas-tick"src="static/images/tick.jpg" style="display: none;width:15px;"></td>
+                    <td><img id="img-pas-wrong"src="static/images/wrong.jpg" style="display: none;width:15px;"></td>
+
+                </tr>
+                <tr>
+                    <th>Repeat Password</th>
+                </tr>
+                <tr>
+                    <td><input id='input-text' name="cpas" type="password" placeholder="**********"></td>
+                    <td><img id="img-cpas-tick"src="static/images/tick.jpg" style="display: none;width:15px;"></td>
+                    <td><img id="img-cpas-wrong"src="static/images/wrong.jpg" style="display: none;width:15px;"></td>
+
+                </tr>
+
+                <tr>
+                    <td id="check-box" style="color: black;"><input name="check" type="checkbox"> I agree to the Terms & Conditions of User</td>
+                </tr>
+            </table>
+            <p id="result"></p>
+            <div ><input type = "submit" id="#sign-up-button" value = "Submit" /></div>
+
+        </form>
+        </div>
+    </div>
+</body>
+</html>

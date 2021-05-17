@@ -1,0 +1,57 @@
+.container-11
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.flex-box-row-1
+{
+display: flex;
+padding: 20px;
+flex-wrap:wrap;
+justify-content:space-evenly;
+}
+.flex-box-row-1 img
+{
+    width: 45%;
+}
+#sign-up
+{
+    font-size:xx-large;
+}
+
+table
+{
+    width: 500px;
+}
+th,td
+{
+    padding: 7px;
+    color:dimgray;
+}
+#input-text {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+    width: 100%;
+  }
+  input:focus {
+    border-color: darkgrey;
+  }
+  #sign-up-button
+  {
+      width: 50%;
+      background:mediumorchid;
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 30px;
+      
+  }
